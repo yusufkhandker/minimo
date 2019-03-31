@@ -1,0 +1,335 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+body{
+	margin: 0;
+	padding:0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	
+
+}
+
+/*Header strat*/
+ header{
+ 	padding: 22px;
+ 	margin-top: 18px;
+ }
+ .container {
+ 	overflow: hidden;
+    width: 94%;
+ 	margin: 0 auto;
+
+ 	
+ 	
+
+}
+
+.logo {
+	width: 10%;
+	float: left;
+
+	
+}
+.logo img{
+	width:100%;
+}
+
+
+.menu {
+	width: 61%;
+	float: right;
+	margin: -12px -55px;
+	
+	
+	
+
+
+}
+
+.menu ul {
+	
+}
+
+.menu ul li {
+	float: left;
+	list-style: none;
+	
+}
+.menu ul li a:hover{
+	color: #000000;
+	font-weight: 550;
+}
+
+
+.menu ul li a {
+	transition: 0.1s;
+	display: block;
+	padding: 0 50px;
+	text-decoration: none;
+	color: #626262;
+
+}
+
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+
+/*Header end*/
+/*banner start*/
+.banner{}
+.bannerimg {}
+.bannerimg img{
+	width: 97%;
+	margin: 0px 16px;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding-top: 50px;
+	padding-bottom: 60px;
+
+}
+.container2{
+	overflow: hidden;
+	width: 80%;
+	margin: -30px auto;
+	
+	
+}
+.perfect-content{
+
+}
+
+.commonp{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300px;
+	
+	color: #b4ad9e
+	
+
+}
+
+.perfect-content h1{
+	margin-top: 10px;
+	font-weight: 400;
+    font-size: 30px;
+}
+
+.perfecttext{
+	line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 40px;
+
+
+}
+
+
+
+/*perfect end*/
+
+
+/*blog start*/
+.blog{
+	margin: 0px 0px;
+    padding-bottom: 150px;
+
+}
+.blog_content{}
+.single{
+	margin-top: 120px;
+	width: 47%;
+	float: left;
+
+}
+.single:nth-child(even){
+	    margin-left: 6%;
+	
+	 
+}
+.blog_img{}
+.blog_img img{
+	width: 100%;
+	margin: 0px 0px;
+}
+
+.single h1{
+	margin-top: 10px;
+	font-weight: 400;
+    font-size: 30px;
+
+}
+.single .text2{}
+
+
+
+
+/*blog end*/
+
+/*singup start*/
+.singup{
+	background-color: #f0f0f0;
+	width: 100%;
+	min-height: 200px;
+}
+
+.singupdata{
+	padding-top: 30px;
+    width: 35%;
+    margin: auto;
+    
+}
+.singtext{
+
+	    min-height: 200px;
+
+}
+.singtext h1{
+	font-family: 'Playfair Display', serif;
+	
+
+
+
+	
+}
+
+
+
+
+.singupform input{
+	outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 302px;
+    font-size: 13px;
+    padding: 0px 0px 4px 1px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.singupform button{
+	top: -2px;
+    right: 20px;
+    position: absolute;
+    border: none;
+    background: transparent;
+}
+
+
+.singupform{
+    position: relative;
+    width: 331px;
+    left: 0;
+    right: 0;
+    bottom: -80px;
+
+}
+
+
+
+/*singup end*/
+
+/*blogg start*/
+
+.blogg{
+	margin: 20px 0px;
+}
+
+
+/*blogg end*/
+
+/*button start*/
+ .singupbutton{
+
+
+ 	padding-top: 100px;
+
+ }
+
+
+ .button{
+ 	transition: 0.8s;
+    margin: 0px 450px;
+    width: 160px;
+    outline: none;
+    background: transparent;
+    border: 1px solid gray;
+    height: 60px;
+ }
+
+ .button :hover{
+
+	color: #000000;
+	font-weight: 550;
+}
+
+
+ .btndata{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    color: #77736b;
+ }
+
+
+.btndata a{
+	text-decoration: none;
+}
+
+
+
+/*button end*/
+
+
+/*footer start*/
+
+.footer{
+	height: 110px;
+	width: 100%;
+	background-color: #f0f0f0;
+	margin-top: 120px;
+
+}
+.footercontain{
+	height: 80px;
+}
+.footwrods{
+    color: black;
+    font-weight: 500;
+    float: left;
+    margin: 45px 0px;
+
+}
+
+.footwords2{
+    color: black;
+    margin: 45px 25px;
+    float: left;
+
+
+}
+
+.footwords3{
+
+	float: left;
+    margin: 0px 5px;
+}
+
+.footimg{
+	float: right;
+    margin: 45px 0px;
+}
+
+.footimg a{
+	padding: 0px 5px;
+}
+
+.footx{
+
+}
+
+
+
+
+/*footer end*/
